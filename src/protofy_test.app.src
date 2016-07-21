@@ -1,0 +1,23 @@
+{application, protofy_test,
+ [
+   {description, "Protofy testing library"},
+   {vsn, "1.0.0"},
+   {registered, []},
+   {applications, [kernel, stdlib]},
+   {env, []},
+   {maintainers, ["Bjoern Kortuemm (@uuid0) <bjoern@protofy.com>"]},
+   {licenses, ["BSD-3"]},
+   {links, [
+     {"Github", "https://github.com/protofy/erl_protofy_test"},
+     {"Protofy", "https://protofy.com"}
+   ]},
+   {files, [
+     "include/",
+     "src/",
+     "test/",
+     "CHANGELOG",
+     "LICENSE",
+     "README.md",
+     "rebar.config"
+   ]}
+ ]}.
